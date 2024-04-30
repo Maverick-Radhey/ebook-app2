@@ -1,0 +1,32 @@
+.bg-custom {
+	background-color :#0d47a1;
+}
+.navbar .nav-item:hover .nav-link{
+	background-color : #e1f5fe;
+	color :blue;
+	border-radius : 14px;
+}
+
+#toast.display{
+	visibility: visible;
+	animation: fadeIn 0.5, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadeIn {from{ bootom:0;
+opacity:0;
+}
+to{
+	bottom: 30px;
+	opacity:1;
+}
+}
+
+@keyframes fadeOut{from { bottom: 30px;
+opacity:1;
+}
+to{
+	bottom: 0;
+	opacity:0;
+	
+}
+}
